@@ -7,7 +7,7 @@
     tools:context=".MainActivity2">
 
     <EditText
-        android:id="@+id/editTextDate"
+        android:id="@+id/txtDate"
         android:layout_width="match_parent"
         android:layout_height="71dp"
         android:ems="10"
@@ -21,7 +21,7 @@
         app:layout_constraintVertical_bias="0.15" />
 
     <EditText
-        android:id="@+id/editTextText1"
+        android:id="@+id/txtMorningTime"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:ems="10"
@@ -35,7 +35,7 @@
         app:layout_constraintVertical_bias="0.287" />
 
     <EditText
-        android:id="@+id/editTextText2"
+        android:id="@+id/txtAfternoonTime"
         android:layout_width="match_parent"
         android:layout_height="75dp"
         android:ems="10"
@@ -49,7 +49,7 @@
         app:layout_constraintVertical_bias="0.413" />
 
     <EditText
-        android:id="@+id/editTextText3"
+        android:id="@+id/txtNotes"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:ems="10"
@@ -98,4 +98,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.859" />
+
+    <TextView
+        android:id="@+id/tvMessage"
+        android:layout_width="365dp"
+        android:layout_height="63dp"
+        android:text=""
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.966" />
 </androidx.constraintlayout.widget.ConstraintLayout>
